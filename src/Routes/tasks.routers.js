@@ -1,4 +1,4 @@
-import { Router } from "express";
+/* import { Router } from "express";
 import {createTask,deleteTask,getTask,getTasks,updateTask,} from "../Controllers/tasks.controller.js";
 import { auth } from "../Middlewares/auth.meddleware.js";
 import { validateSchema } from "../Middlewares/validator.middlewre.js";
@@ -16,4 +16,4 @@ router.put("/tasks/:id", auth, updateTask);
 
 router.delete("/tasks/:id", auth, deleteTask);
 
-export default router;
+export default router; */

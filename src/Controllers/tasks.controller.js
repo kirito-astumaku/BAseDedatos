@@ -1,4 +1,4 @@
-import Task from '../Models/user.model.js'
+/* import Task from '../Models/user.model.js'
 
 
 export const getTasks = async (req, res) => {
@@ -60,4 +60,4 @@ export const getTask = async (req, res) => {
   } catch (error) {
     return res.status(500).json({ message: error.message });
   }
-};
+}; */
