@@ -5,7 +5,7 @@ import cors from 'cors'
 import { FRONTEND_URL } from "./config.js"
 
 import authRoutes from "./Routes/auth.routers.js"
-/* import tasksRoutes from "./Routes/tasks.routers.js" */
+
 
 
 const app = express();
@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use('/api', authRoutes);
-/* app.use('/api' , tasksRoutes); */
+
 
 if (process.env.NODE_ENV === "production") {
   const path = await import("path");
