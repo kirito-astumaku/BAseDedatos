@@ -15,7 +15,7 @@ app.use(morgan('dev'));
 app.use(express.json());
 app.use(cookieParser());
 
-app.use('/api' , authRoutes);
+app.use('/api', authRoutes);
 /* app.use('/api' , tasksRoutes); */
 
 if (process.env.NODE_ENV === "production") {

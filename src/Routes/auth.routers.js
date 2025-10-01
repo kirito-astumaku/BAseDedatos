@@ -1,5 +1,5 @@
 import {Router} from 'express'
-import {login, register, logout, profile,verifyToken,USERSS} from '../Controllers/auth.controller.js'
+import {login, register, logout, profile,verifyToken,} from '../Controllers/auth.controller.js'
 import { authRequired } from '../Middlewares/validateToken.js'
 import { validateSchema } from "../Middlewares/validator.middlewre.js";
 import { registerSchema, loginSchema } from "../Schemas/auth.schema.js";
@@ -19,7 +19,7 @@ router.get('/profile' , authRequired, profile)
 
 router.get('/verify' , verifyToken)
 
-router.get("/user", verifyToken, USERSS)
+
 
 
 export default router
