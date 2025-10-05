@@ -3,7 +3,6 @@ import morgan  from "morgan"
 import cookieParser from 'cookie-parser'
 import cors from 'cors'
 import { FRONTEND_URL } from "./config.js"
-
 import authRoutes from "./Routes/auth.routers.js"
 
 
